@@ -20,6 +20,6 @@ public class JenkinsControllerTest {
         String str = JenkinsService.test1();
 //        int i = 1 / 0;
         System.out.println(str);
-        assert false;
+        Assert.notNull(str, "str is null");
     }
 }
