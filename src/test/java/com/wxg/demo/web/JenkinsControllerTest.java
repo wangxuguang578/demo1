@@ -1,6 +1,6 @@
 package com.wxg.demo.web;
 
-import com.wxg.demo.service.JenkinsService;
+import com.wxg.demo.service.impl.JenkinsServiceImpl;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class JenkinsControllerTest {
 
     @Autowired
-    private JenkinsService JenkinsService;
+    private JenkinsServiceImpl JenkinsService;
     @Test
     public void test1() {
         String str = JenkinsService.test1();
