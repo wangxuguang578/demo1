@@ -19,6 +19,7 @@ public class JenkinsControllerTest {
     public void test1() {
         String str = JenkinsService.test1();
 //        int i = 1 / 0;
+        System.out.println(str);
         assert false;
     }
 }
