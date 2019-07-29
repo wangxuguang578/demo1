@@ -1,4 +1,4 @@
-package com.wxg.demo;
+package com.wxg.demo.web;
 
 import com.wxg.demo.service.JenkinsService;
 import org.junit.Test;
@@ -10,14 +10,14 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class JenkinsTest {
+public class JenkinsControllerTest {
 
     @Autowired
     private JenkinsService JenkinsService;
     @Test
     public void test1() {
         String str = JenkinsService.test1();
-//        int i = 1 / 0;
+        int i = 1 / 0;
         System.out.println(str);
     }
 }

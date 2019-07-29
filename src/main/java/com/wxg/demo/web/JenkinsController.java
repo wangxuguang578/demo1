@@ -9,11 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("jenkins")
 public class JenkinsController {
 
+    @SuppressWarnings("AlibabaLowerCamelCaseVariableNaming")
     @Autowired
-    private JenkinsService JenkinsService;
+    private JenkinsService jenkinsService;
     @RequestMapping("test1")
     public String test() {
-        return JenkinsService.test1();
+        return jenkinsService.test1();
     }
 
 }
