@@ -22,4 +22,11 @@ public class JenkinsControllerTest {
         System.out.println(str);
         Assert.notNull(str, "str is null");
     }
+
+    @Test
+    public void test2() {
+        String str = JenkinsService.test1();
+        System.out.println(str);
+        Assert.notNull(str, "str is null");
+    }
 }
