@@ -33,7 +33,8 @@ public class JenkinsControllerTest {
     @Test
     public void test1() {
         String str = JenkinsService.test1();
-//        int i = 1 / 0;
+        int i = 1 / 0;
+        System.out.println();
         System.out.println(str);
         Assert.notNull(null, "查询结果 is null");
     }
