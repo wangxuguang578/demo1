@@ -24,4 +24,11 @@ public class MyTest {
         System.out.println("date=" +date);
         System.out.println("todayZero=" +todayZero);
     }
+
+    @Test
+    public void test() {
+        String bb = "564733.5";
+        System.out.println(Float.parseFloat(bb));
+
+    }
 }

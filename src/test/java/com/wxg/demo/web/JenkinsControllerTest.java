@@ -46,4 +46,10 @@ public class JenkinsControllerTest {
         Assert.notNull(str, "str is null");
     }
 
+    @Test
+    public void test() {
+        String aa = null + "";
+        System.out.println(aa);
+    }
+
 }
