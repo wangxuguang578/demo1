@@ -14,6 +14,7 @@ public class JenkinsController {
     private JenkinsServiceImpl jenkinsService;
     @RequestMapping("test1")
     public String test() {
+        System.out.println("aa");
         return jenkinsService.test1();
     }
 
