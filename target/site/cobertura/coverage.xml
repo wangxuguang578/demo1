@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="1.0" branch-rate="1.0" lines-covered="20" lines-valid="20" branches-covered="0" branches-valid="0" complexity="1.0" version="2.1.1" timestamp="1566211273973">
+	<sources>
+		<source>--source</source>
+		<source>D:/idea_ws/practise/jenkins-demo/src/main/java</source>
+		<source>D:/idea_ws/practise/jenkins-demo/target/generated-sources/annotations</source>
+	</sources>
+	<packages>
+		<package name="com.wxg.demo.config" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="com.wxg.demo.config.Swagger2Config" filename="com/wxg/demo/config/Swagger2Config.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="17" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="apiInfo" signature="()Lspringfox/documentation/service/ApiInfo;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="34" hits="3" branch="false"/>
+								<line number="35" hits="6" branch="false"/>
+								<line number="37" hits="3" branch="false"/>
+								<line number="39" hits="3" branch="false"/>
+								<line number="41" hits="3" branch="false"/>
+								<line number="43" hits="3" branch="false"/>
+								<line number="44" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="createRestApi" signature="()Lspringfox/documentation/spring/web/plugins/Docket;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="6" branch="false"/>
+								<line number="22" hits="3" branch="false"/>
+								<line number="23" hits="3" branch="false"/>
+								<line number="27" hits="3" branch="false"/>
+								<line number="29" hits="3" branch="false"/>
+								<line number="30" hits="3" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="17" hits="3" branch="false"/>
+						<line number="21" hits="6" branch="false"/>
+						<line number="22" hits="3" branch="false"/>
+						<line number="23" hits="3" branch="false"/>
+						<line number="27" hits="3" branch="false"/>
+						<line number="29" hits="3" branch="false"/>
+						<line number="30" hits="3" branch="false"/>
+						<line number="34" hits="3" branch="false"/>
+						<line number="35" hits="6" branch="false"/>
+						<line number="37" hits="3" branch="false"/>
+						<line number="39" hits="3" branch="false"/>
+						<line number="41" hits="3" branch="false"/>
+						<line number="43" hits="3" branch="false"/>
+						<line number="44" hits="3" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.wxg.demo.dao" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="com.wxg.demo.dao.JenkinsDao" filename="com/wxg/demo/dao/JenkinsDao.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="6" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="test1" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="9" hits="9" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="6" hits="3" branch="false"/>
+						<line number="9" hits="9" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.wxg.demo.service" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="com.wxg.demo.service.JenkinsService" filename="com/wxg/demo/service/JenkinsService.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.wxg.demo.service.impl" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="com.wxg.demo.service.impl.JenkinsServiceImpl" filename="com/wxg/demo/service/impl/JenkinsServiceImpl.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="9" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="test1" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="15" hits="9" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="3" branch="false"/>
+						<line number="15" hits="9" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="com.wxg.demo.web" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="com.wxg.demo.web.JenkinsController" filename="com/wxg/demo/web/JenkinsController.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="11" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="test" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="17" hits="3" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="11" hits="3" branch="false"/>
+						<line number="17" hits="3" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
