@@ -1,0 +1,6 @@
+com\wxg\demo\config\Swagger2Config.class
+com\wxg\demo\service\impl\JenkinsServiceImpl.class
+com\wxg\demo\web\JenkinsController.class
+com\wxg\demo\JenkinsApplication.class
+com\wxg\demo\dao\JenkinsDao.class
+com\wxg\demo\service\JenkinsService.class

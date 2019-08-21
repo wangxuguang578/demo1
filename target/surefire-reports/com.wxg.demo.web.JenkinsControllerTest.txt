@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.wxg.demo.web.JenkinsControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 3.489 s <<< FAILURE! - in com.wxg.demo.web.JenkinsControllerTest
+test1(com.wxg.demo.web.JenkinsControllerTest)  Time elapsed: 0.09 s  <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at com.wxg.demo.web.JenkinsControllerTest.test1(JenkinsControllerTest.java:36)
+
+test3(com.wxg.demo.web.JenkinsControllerTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalArgumentException: list is empty
+	at com.wxg.demo.web.JenkinsControllerTest.test3(JenkinsControllerTest.java:31)
+
